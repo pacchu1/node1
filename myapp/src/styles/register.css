@@ -1,0 +1,87 @@
+/* In a separate CSS file or in a <style> block in your component */
+.register-container {
+  margin: auto;
+  border: 2px solid #000 ; /* You can adjust the color as needed */
+  width: 400px;
+  height: 550px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+border-radius: 20px;
+background-image: url("../images/bg1.jpeg");
+margin-top: 30px;
+margin-bottom: 10px;
+}
+body{
+  background-image: url("../images/download10.jpeg");
+  background-size: cover;
+}
+.form-group {
+  
+  padding: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+select{
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.register-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+.icons a{
+  height: 50px;
+  width: 40px;
+}
+.social {
+gap: 10px;
+  align-items: center;
+  
+  margin-top: 30px;
+}
+.log{
+  width: 80%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.social-icons
+  {
+    margin-left: 60PX;
+    display: flex;
+    gap: 20px;
+  }
+  .sush{
+    gap:20px;
+    margin-top: 20px;
+  }
+  

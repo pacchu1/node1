@@ -1,0 +1,13 @@
+.boo{
+    /* background: linear-gradient( -45deg, rgb(248, 135, 135) 30%, rgb(162, 78, 240) 30%,blueviolet 70%, rgb(86, 243, 86) 60%); */
+     background-color: rgb(211, 247, 158); 
+}
+.white{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
+img{
+    border-radius: 10px;
+}

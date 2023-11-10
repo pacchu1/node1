@@ -1,0 +1,29 @@
+
+
+.image-row {
+    display: flex;      /* Enable flexbox */
+    justify-content: center; /* Center images horizontally */
+    align-items: center;    /* Center images vertically */
+    gap: 16px;          /* Space between images */
+    margin-top: 20px;
+    overflow: hidden;
+    -webkit-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    
+  }
+  .gal{
+    background-color: cornflowerblue;
+  }
+  .image-row img {
+    width: 280px;       /* Set a fixed width for all images */
+    height: 270px;       /* Maintain the aspect ratio */
+    border: 1px solid #ddd; /* Optional border around images */
+    -webkit-transition: transform 0.5s ease;
+    transition: transform 0.8s ease;
+    margin-bottom: 10px;
+  }
+ .image-row img:hover{
+   transform: scale(1.2);
+   -webkit-transform: scale(1.1);
+   cursor: pointer;
+  }

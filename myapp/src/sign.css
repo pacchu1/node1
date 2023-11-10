@@ -1,0 +1,121 @@
+.sig{
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfU_0dtQrvmPRVXt7SunnJNOouyPVD9DCbA&usqp=CAU');
+   background-size: cover;  */
+   background: linear-gradient(to bottom, #e88102, rgb(109, 109, 245));
+  background-position: center;
+  margin-left: 750PX;
+  margin-top: 50PX;
+  
+  border: 2px solid #000 ; /* You can adjust the color as needed */
+    width: 400px;
+    height: 680px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 30px;
+}
+
+.signup-form h2 {
+  color: #333;
+}
+
+.signup-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.sig{
+  border-radius: 20px;
+  background-color: transparent green;
+}
+.signup-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #45a049;
+}
+.sign1
+{
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+/* input {
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow: #000;
+    margin-top: 30px;
+  } */
+  .for
+  
+    {
+    margin-left: 220px;
+    margin-top: 10px;
+  }
+  .katte
+  {
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 20px;
+    height: 60px;
+  }
+  .katte1
+  {
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 20px;
+    height: 60px;
+  }
+  .log
+  {
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 20px;
+    height: 60px;
+  }
+  .social-icons
+  {
+    margin-left: 60PX;
+    display: flex;
+  }
+  .sush{
+    padding-left: 10px;
+    margin-top: 40px;
+    
+  }
+  .sush a{
+    color: #000;
+    
+  }
+  .or{
+text-align: center;
+color: #000;
+font-weight: 700;
+font-size: 30px;
+margin-top: 40px;
+  }

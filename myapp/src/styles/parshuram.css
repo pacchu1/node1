@@ -1,0 +1,24 @@
+
+.button{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(30, 8, 230);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(189, 184, 184);
+}
+.btn1{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(8, 202, 2);
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(156, 154, 154);
+}

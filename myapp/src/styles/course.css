@@ -1,0 +1,35 @@
+.course{
+    background-color: aliceblue;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;  /* This will space the boxes evenly */
+}
+
+.box {
+    flex: 1;  /* This will make sure all boxes take up equal width */
+    padding: 10px;
+    border: 1px solid rgb(204, 201, 201);  /* Adds a border to each box */
+    text-align: center;  /* Centers the text in each box */
+    box-sizing: border-box;  /* Ensures padding and border are included in the box's total width */
+    margin: 0 10px;
+    margin-top: 20px;
+    background-color:  aliceblue;
+    font-weight: bold;
+    height: 120px;
+    padding-top: 40px;
+}
+.box:hover{
+    color: black;
+    cursor: pointer;
+    background-color: rgb(139, 138, 138);
+}
+.text{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}

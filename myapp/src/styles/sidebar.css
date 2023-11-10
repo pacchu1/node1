@@ -1,0 +1,133 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    margin-left: 500px;
+   
+  }
+  
+  .navbar li a {
+    margin: 0 50px;
+    color: #fff;
+   
+    
+  }
+  .ico{
+    background-image: url("../images/Capture.JPG");
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    
+  }
+  
+  .profile-icon {
+    cursor: pointer;
+  }
+  .icob{
+    background-image: url("../images/Capture.JPG");
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 100px;
+  }
+  .sidebar {
+    height: 533px;
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+     flex-grow: 1;
+  transition: margin-left 0.5s; /* Add smooth transition for content shift */
+  margin-left: 0;
+  }
+  .toggle-sidebar-button {
+    position:absolute;
+    left: 0;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+  }
+  .email{
+    background-image: url("../images/ema4.JPG");
+    height: 20px;
+    width: 20px;
+  }
+  .emo{
+    display: flex;
+  }
+  .me{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .well{
+    color: rgba(240, 248, 255, 0.637);
+    text-align: left;
+    margin-left: 20px;
+  }
+  .parashu{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f81069;
+  }
+  .text{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0;
+  }
+  .me1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 20px;
+
+  }
+  .nanu{
+    background-color: #1f1f1f;
+    margin-bottom: 0;
+  }
+  .photo{
+    background-image: url("../images/content.JPG");
+    height: 300px;
+    width: 300px;
+  }
+  .final1{
+    display: flex;
+    gap: 450px;
+  }
+  .profile{
+    color: #fff;
+    margin: auto;
+  border: 0.1px solid #d8d7d7 ; /* You can adjust the color as needed */
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+border-radius: 20px;
+z-index: 999;
+right: 20px;
+ /* Initially hide the profile details */
+  padding: 10px;
+
+  }
+
+    .profile.show {
+      display: block; /* Show the profile details when isProfileOpen is true */
+    
+  }

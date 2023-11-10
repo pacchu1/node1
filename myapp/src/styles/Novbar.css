@@ -1,0 +1,56 @@
+/* Novbar.css */
+.nav {
+    /* Other existing styles... */
+    /* background: linear-gradient(-45deg, rgb(115, 123, 235) 0%, #23e63d 70% ,red 70%);
+                 */
+                 background-color: black;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap:20px;
+                color: white;
+                
+               
+}
+
+.nav Link{
+    
+    text-decoration: none;
+}
+
+.dove{
+    color: blueviolet;
+}
+.nanu{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: chartreuse;
+    font-size: large;
+    font-weight: 600;
+    
+}
+.beda{
+    color: rgb(224, 219, 219);
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+header{
+    background-color:linear-gradient( -45deg, rgb(248, 135, 135) 30%, rgb(162, 78, 240) 30%,blueviolet 70%, rgb(86, 243, 86) 60%); 
+    height: 50px;
+    padding-top: 10px;
+margin-left: 1000px;
+}
+
+.logo{
+
+    height: 50px;
+    width: 40px;
+}
+.bedaninu
+{
+    padding-left: 250px;
+}
