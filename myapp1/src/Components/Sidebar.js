@@ -1,7 +1,7 @@
 // Sidebar.js
 
 import React, { useState } from 'react';
-import './sidebar.css'; // Import the CSS file for the sidebar
+import './sidebar.css'; 
 import { FaBars } from 'react-icons/fa';
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
